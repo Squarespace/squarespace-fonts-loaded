@@ -15,7 +15,10 @@ class FontsLoaded {
 
   destroy() {
     clearInterval(this.checkInterval);
-    this.testWrapper.remove();
+    const parent = this.testWrapper.parentNode;
+    if (parent) {
+      parent.removeChild(this.testWrapper);
+    }
   }
 
   /**
