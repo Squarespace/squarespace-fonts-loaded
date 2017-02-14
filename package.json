@@ -1,6 +1,6 @@
 {
   "name": "@squarespace/fonts-loaded",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Squarespace, Inc.",
   "description": "Determine if fonts are loaded for particular nodes",
   "license": "SEE LICENSE IN LICENSE.txt",
